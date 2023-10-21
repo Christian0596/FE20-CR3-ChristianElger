@@ -1,0 +1,14 @@
+.container1 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/12/02/32/basil-3532424_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-style: italic;
+}

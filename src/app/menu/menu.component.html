@@ -1,0 +1,29 @@
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="row">
+          <div *ngFor="let val of foodArr, let i = index" class="col-md-4">
+            <div class="text-center border border-white m-4 p-4">
+              <div class="d-flex flex-column align-items-center mt-4">
+                <img [src]="val.image" alt="{{val.name}}" class="img-thumbnail" style="width: 250px; height: 250px;">
+                <p>{{val.name}}</p>
+                <p>{{val.price | currency:'EUR' }}</p>
+                <ng-container *ngIf="val.availability; else notAvailable">
+                  <div class="d-flex justify-content-between">
+                    <button routerLink="/details/{{i}}" class="btn btn-warning">Details</button>
+                    <button (click)="addToCart(val)" class="btn btn-success">Order</button>
+                  </div>
+                </ng-container>
+                <ng-template #notAvailable>
+                  <p class="text-danger">Not available</p>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

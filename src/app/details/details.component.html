@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 mx-auto text-center p-4">
+      <div class="d-inline-block">
+        <img [src]="food.image" alt="{{food.name}}" class="img-thumbnail" style="width: 200px; height: 200px;">
+        <p>{{food.name}}</p>
+        <p>{{food.price | currency:'EUR'}}</p>
+        <p>{{food.description}}</p>
+        <button routerLink="/menu" class="btn btn-warning" (click)="addToCart(food)">Back</button>
+        <button routerLink="/cart" class="btn btn-success" (click)="addToCart(food)">Add to Cart</button>
+        <hr />
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+export const food = [
+  
+  {
+    name: "Bruschetta",
+    image: "https://cdn.pixabay.com/photo/2021/02/21/11/28/finger-food-6036072_1280.jpg",
+    description: "Exquisite appetizers, or häppchen, are a showcase of culinary artistry, offering bite-sized bursts of flavor. These small but flavorful bites are perfect for tantalizing the taste buds with an array of textures, tastes, and creative combinations, leaving a lasting impression on your palate.",
+    price: 12,
+    availability: true,
+  },
+  {
+    name: "Caprese",
+    image: "https://cdn.pixabay.com/photo/2016/12/27/21/22/salad-1934944_1280.jpg",
+    description: "A classic Caprese salad is a delightful Italian dish that embodies simplicity and elegance. It features the vibrant combination of ripe tomatoes, fresh mozzarella, fragrant basil leaves, and extra virgin olive oil, creating a harmonious burst of flavors in every bite.",
+    price: 10,
+    availability: true,
+  },
+  {
+    name: "Risotto",
+    image: "https://cdn.pixabay.com/photo/2017/04/05/22/43/rice-2206668_1280.jpg",
+    description: "An excellent risotto is a delectable Italian specialty known for its creamy texture, rich flavors, and perfect balance of aromas. Prepared with Arborio rice slowly cooked in a fragrant broth, it absorbs the flavors and spices, resulting in each grain bursting with taste.",
+    price: 25,
+    availability: true,
+  },
+  {
+    name: "Spaghetti",
+    image: "https://cdn.pixabay.com/photo/2018/07/18/19/12/pasta-3547078_1280.jpg",
+    description: "Delicious spaghetti with homemade tomato sauce and fresh basil leaves.",
+    price: 13,
+    availability: true,
+  },
+  {
+    name: "Pizza con Carne",
+    image: "https://cdn.pixabay.com/photo/2016/02/16/07/39/pizza-1202775_1280.jpg",
+    description: "Tasty pizza topped with savory meats and melted cheese.",
+    price: 14.5,
+    availability: false,
+  },
+  {
+    name: "Pasta",
+    image: "https://cdn.pixabay.com/photo/2016/11/23/18/31/pasta-1854245_1280.jpg",
+    description: "Classic pasta dish with al dente noodles and rich tomato sauce.",
+    price: 14.5,
+    availability: true,
+  },
+  {
+    name: "Gnocchi",
+    image: "https://cdn.pixabay.com/photo/2014/04/18/12/16/gnocchi-327115_1280.jpg",
+    description: "Soft and pillowy potato gnocchi served with a creamy Gorgonzola sauce.",
+    price: 12,
+    availability: false,
+  },
+  {
+    name: "Pizza Spinaci",
+    image: "https://cdn.pixabay.com/photo/2012/12/24/08/38/spinach-72123_1280.jpg",
+    description: "Vegetarian pizza topped with fresh spinach, mozzarella, and a hint of garlic.",
+    price: 13.5,
+    availability: true,
+  },
+  {
+    name: "White Pizza",
+    image: "https://cdn.pixabay.com/photo/2020/09/18/16/05/pizza-5582236_1280.jpg",
+    description: "Traditional Italian pizza with fresh tomato sauce, mozzarella, and basil leaves.",
+    price: 15.5,
+    availability: true,
+  },
+];
